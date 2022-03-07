@@ -1,0 +1,43 @@
+div.ReplyWrite {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+div.ReplyWrite > div.input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div.ReplyWrite > div.input > input {
+  width: 120px;
+  height: 18px;
+  margin: 5px;
+}
+
+
+div.ReplyWrite > textarea.reply-write {
+  box-sizing: border-box;
+  width: 250px;
+  min-height: 100px;
+  height: fit-content;
+  overflow: scroll;
+  resize: none;
+  margin: 5px;
+}
+
+div.ReplyWrite > div.reply-write-button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 5px;
+}
+
+div.ReplyWrite > div.reply-write-button > button.reply-write-button {
+  width: 72px;
+  height: 36px;
+  font-size: 15px;
+}

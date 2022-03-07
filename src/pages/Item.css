@@ -1,0 +1,28 @@
+tr.Item {
+  cursor: pointer;
+}
+
+tr.Item:hover {
+  color: blue;
+  transition-duration: 500ms;
+}
+
+tr.Item > td {
+  text-align: left;
+}
+
+tr.Item > td.no {
+  width: 50px;
+}
+
+tr.Item > td.title {
+  width: 150px;
+}
+
+tr.Item > td.author {
+  width: 150px;
+}
+
+tr.Item > td.datetime {
+  width: 300px;
+}

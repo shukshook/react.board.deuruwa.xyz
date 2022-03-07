@@ -1,0 +1,36 @@
+div.Read {  
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+div.Read > div.title {
+  width: 100%;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+div.Read > div.line-wrapper {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-color: rgba(0, 0, 0, 4);
+  border-width: 1px;
+}
+
+div.Read > div.line-wrapper > span.border {
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 4);
+}
+
+div.Read > div.contents {
+  width: 100%;
+  height: fit-content;
+  min-height: 360px;
+  margin: 20px 0;
+  font-size: 18px;
+}
